@@ -1,5 +1,5 @@
 let divs = Array.from(document.querySelectorAll('#container div'));
-let parent = document.getElementById('parent'); let button = document.getElementById('button'); let gameArray, gameArrayIndex, score, gameOver; let highestScore = 0; let close = document.getElementById('close'); let curscr = Array.from(document.querySelectorAll('#currentScr div')).length; let highscr = Array.from(document.querySelectorAll('#highScr div')).length; let currentScr = document.getElementById('currentScr'); let highScr = document.getElementById('highScr'); let title = document.getElementById('title');
+let parent = document.getElementById('parent'); let button = document.getElementById('button'); let gameArray, gameArrayIndex, score, gameOver; let highestScore = 0; let close = document.getElementById('close'); let currentScr = document.getElementById('currentScr'); let highScr = document.getElementById('highScr'); let title = document.getElementById('title');
 startGame = () => {
     gameOver = false; gameArray = []; gameArrayIndex = 0; score = 0;
     divs.forEach(e => {
@@ -76,7 +76,8 @@ function resetGame() {
     divs.forEach(e => {
         e.removeEventListener('click', eventlisten);
         e.style.cursor = 'default';
-    })
+    });
+    let curscr = Array.from(document.querySelectorAll('#currentScr div')).length; let highscr = Array.from(document.querySelectorAll('#highScr div')).length;
     addElements(score, curscr, currentScr); addElements(highestScore, highscr, highScr);
     inst.innerHTML = '<div id="gameFinished">Game Over!</div><i class="fa-solid fa-xmark" id="close"></i>';
     inst.classList.add('gameOver');
@@ -86,7 +87,7 @@ function resetGame() {
 }
 
 function addElements(a, b, c) {
-    if (a > b - 1) {
+    if (a > (b - 1)) {
         for (let i = b; i <= a; i++) {
             let x = document.createElement('div');
             x.innerText = i;
