@@ -105,7 +105,7 @@ button:active {
     height: 50px;
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .transition div {
