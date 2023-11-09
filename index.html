@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=" icon" href="logo.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="title">Created By Rohit&trade;</div>
+    <div class="parent hidden" id="parent">
+        <div id="container">
+            <div style="--color:red"><span class="boxText">0</span></div>
+            <div style="--color:blue"><span class="boxText">1</span></div>
+            <div style="--color:yellow"><span class="boxText">2</span></div>
+            <div style="--color:rgb(0,255,0)"><span class="boxText">3</span></div>
+        </div>
+        <div id="scores">
+            <div class="transition">
+                <div>Score :&nbsp;</div>
+                <div id="currentScr">
+                    <div>0</div>
+                </div>
+            </div>
+            <div class="transition">
+                <div>High Score :&nbsp;</div>
+                <div id="highScr">
+                    <div>0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="startGame()" class="hidden" id="button">Start Game</button>
+    <div class="instructions" id="inst">
+        <div class="header">
+            <h1>Instructions</h1>
+        </div>
+        <div class="steps">
+            <div class="flex">
+                <div>1.</div>
+                <div>Click the "Start Game" button to begin.</div>
+            </div>
+            <div class="flex">
+                <div>2.</div>
+                <div>Pay attention to the sequence of flashing boxes.</div>
+            </div>
+            <div class="flex">
+                <div>3.</div>
+                <div>Click the boxes in the same order as the flashing sequence.</div>
+            </div>
+            <div class="flex">
+                <div>4.</div>
+                <div>Each successful round increases your score.</div>
+            </div>
+            <div class="flex">
+                <div>5.</div>
+                <div>Keep repeating the sequence to increase your score.</div>
+            </div>
+            <div class="flex">
+                <div>6.</div>
+                <div>The game continues until you make a mistake.</div>
+            </div>
+            <div class="flex">
+                <div>7.</div>
+                <div>Click the "Start Game" button to play again.</div>
+            </div>
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
+    </div>
+</body>
+<script src='https://kit.fontawesome.com/8e5e768940.js' crossorigin='anonymous'></script>
+
+</html>
