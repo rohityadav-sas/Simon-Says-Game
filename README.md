@@ -25,11 +25,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 1. Clone the repository:
+   ```bash
    git clone https://github.com/rohityadav-sas/Simon
 
-2. Open the project folder in your code editor.
+3. Open the project folder in your code editor.
 
-3. Open index.html in your web browser.
+4. Open index.html in your web browser.
 
 ## How to Play
 1. Click the "Start Game" button to begin.
