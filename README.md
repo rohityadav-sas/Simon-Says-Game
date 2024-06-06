@@ -2,6 +2,9 @@
 
 A web-based Simon game implementation where players need to remember and replicate sequences of flashing colors. Test your memory and see how high you can score!
 
+## Preview
+![Preview.png](https://github.com/rohityadav-sas/Simon-Says-Game/blob/master/Preview.png)
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
