@@ -2,16 +2,18 @@
 
 A web-based Simon game implementation where players need to remember and replicate sequences of flashing colors. Test your memory and see how high you can score!
 
-## Preview
-![Preview.png](https://github.com/rohityadav-sas/Simon-Says-Game/blob/master/Preview.png)
-
 ## Table of Contents
+
+- [Preview](#preview)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Preview
+![preview.png](./assets/preview.png?raw=true)
 
 ## Features
 - Flashing colored boxes with a sequence to memorize.
@@ -52,4 +54,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 Icons provided by FontAwesome.
+
 Logo sourced from logo.ico.
