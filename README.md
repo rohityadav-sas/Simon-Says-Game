@@ -32,6 +32,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
    ```bash
    git clone https://github.com/rohityadav-sas/Simon
+   ```
 
 3. Open the project folder in your code editor.
 
