@@ -6,11 +6,10 @@ A web-based Simon game implementation where players need to remember and replica
 
 - [Preview](#preview)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [How to Play](#how-to-play)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
@@ -23,10 +22,6 @@ A web-based Simon game implementation where players need to remember and replica
 
 ## Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-- A modern web browser
-- Code editor (e.g., Visual Studio Code, Sublime Text)
 
 ### Installation
 1. Clone the repository:
@@ -47,13 +42,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 6. The game continues until you make a mistake.
 7. Click the "Start Game" button to play again.
 
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
 ## License
-This project is licensed under the MIT License.
 
-## Acknowledgments
-Icons provided by FontAwesome.
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
 
-Logo sourced from logo.ico.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
