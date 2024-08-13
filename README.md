@@ -29,9 +29,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    git clone https://github.com/rohityadav-sas/Simon
    ```
 
-3. Open the project folder in your code editor.
-
-4. Open index.html in your web browser.
+2. Open ```index.html``` in your web browser.
 
 ## How to Play
 1. Click the "Start Game" button to begin.
